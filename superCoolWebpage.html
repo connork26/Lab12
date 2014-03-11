@@ -1,18 +1,72 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Welcome to HTML</title>
+		<title>Welcome to HTML - V2</title>
 	</head>
-	<body>
-		<h1>CS355 Lab 12 - HTML</h1>
-		<p>
-			Hello World!<br>
-			<b>I'm Connor</b><br>
-			<b>Sometimes I use <i>italics</i><br>
 
-			<!-- Lacrosse stats -->
-			<a href="http://mcla.us/player/28673/connor_kuehnle/">And sometimes I play lacrosse</a>
-		</p>
+	<body>
+		<div id="container" > <!-- style="width:500px"> -->
+
+		<div id="header" style="background-color:#FFA500;">
+			<img src="http://www.cs.sonoma.edu/~haderman/cs355/assignments/cs355lab13.png" alt="">
+		</div>
+
+		<div id="menu" style="background-color:#FFD700;width:125px;height:600px;float:left;">
+			<b>Menu</b><br>
+			<a href="https://github.com/connork26/">My Github</a><br>
+			<a href="http://watts.cs.sonoma.edu/~haderman/cs355/">Class Website</a><br>
+			<a href="http://www.cs.sonoma.edu/">Sonoma State CS</a><br>
+		</div>
+
+		<div id="content" style="background-color:#EEEEEE;height:600px;">
+			<table style="text-align:left;">
+				<tr style="background-color:#5F5F5F;">
+					<th style="width:150px">Course Number</th>
+					<th style="width:300px">Course Name</th>
+					<th style="width:150px">Professor</th>
+				</tr>
+				<tr>
+					<td>355</td>
+					<td>Database</td>
+					<td>Haterman</td>
+				</tr>
+				<tr>
+					<td>415</td>
+					<td>Algorithm Analysis</td>
+					<td>Ledin</td>
+				</tr>
+				<tr>
+					<td>340</td>
+					<td>Malware</td>
+					<td>Ledin</td>
+				</tr>
+				<tr>
+					<td>490</td>
+					<td>Colloquium</td>
+					<td>Ledin</td>
+				</tr>
+			</table>
+			<p>Top 3 things I've learned</p>
+			<ol>
+				<li>C++</li>
+				<li>OOP</li>
+				<li>Android</li>
+			</ol>
+
+			<p>Things I Want to Learn</p>
+			<ul>
+				<li>More Web Development</li>
+				<li>Mobile Development</li>
+				<li>Full Stack Development</li>
+			</ul>
+
+			<button type="button" onclick="alert('It Worked!!')">Click Here...	</button>
+		</div>
+
+		<div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">
+		Copyright © W3Schools.com</div>
+
+</div>
 
 	</body>
 </html>
